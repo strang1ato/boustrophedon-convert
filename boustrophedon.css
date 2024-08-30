@@ -1,0 +1,21 @@
+/* I often change styling varying on ebook that I read 
+so by no means it is necessary to keep styling the way there is */
+
+@import url('https://fonts.googleapis.com/css2?family=Literata');
+body {
+  font-size:45px;
+  font-family: "Literata";
+  font-style: italic;
+  word-spacing: 1.8em;
+  /* white-space: pre-wrap; */
+}
+
+.line {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.line:nth-child(2n) {
+  transform: rotateY(180deg);
+}

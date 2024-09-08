@@ -18,12 +18,12 @@ You can achieve that using `pandoc` and running:
 **Step 3**: Save loaded html file to PDF:
   1. Press `Ctrl + P`
   2. In the "Print..." window set paper size to A4 and select "Fit to page width" option
-  3. You can here margins and unselect "Print headers and footers"
+  3. You can change here margins and unselect "Print headers and footers"
   4. Click "Save" button
 
 
 **Notes:** 
-  - you don't need to use A4 dimensions, it is just my suggestion
+  - you don't need to use exactly A4 dimensions, it is just my suggestion
   - if the letters are too small or too big or you want to just add more styles, you can add your styles to `html` file (see: [boustrophedon.css](https://github.com/strang1ato/boustrophedon-convert/blob/main/boustrophedon.css))
   - you can treat `txt` file as `html` file simply by changing file extension to `.html`
 
